@@ -1,1 +1,1 @@
-# bastion-aws
+# bastion-terraform
