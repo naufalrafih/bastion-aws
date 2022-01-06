@@ -2,6 +2,10 @@ terraform {
   source = "../..//module"
 }
 
+include {
+  path = find_in_parent_folders()
+}
+
 inputs = {
   region            = "ap-southeast-1"
   private_key_path  = "/home/naufal/playground/terraform/bastion-terraform/terragrunt/dev/private_key.pem"
